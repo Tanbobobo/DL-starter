@@ -15,7 +15,7 @@ import sys
 import sphinx_rtd_theme
 import mock
 
-sys.path.insert(0, os.path.abspath('../..'))
+sys.path.insert(0, os.path.abspath('../demos/'))
  
 
 MOCK_MODULES = ['numpy', 'sklearn', 'pandas','timm','opencv-python','torch','PIL'] 
