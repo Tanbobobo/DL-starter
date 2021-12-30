@@ -37,8 +37,8 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'recommonmark',
-    'sphinx_markdown_tables',
-    'sphinx_copybutton',
+    #'sphinx_markdown_tables',
+    #'sphinx_copybutton',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
