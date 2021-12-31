@@ -7,3 +7,4 @@ timm
 scikit-learn
 opencv-python
 numpy
+albumentations
