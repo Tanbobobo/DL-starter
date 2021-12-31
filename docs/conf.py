@@ -18,9 +18,8 @@ import mock
 sys.path.insert(0, os.path.abspath('../demos/'))
  
 
-MOCK_MODULES = ['numpy', 'sklearn', 'pandas','timm','opencv-python','torch','PIL'] 
-for mod_name in MOCK_MODULES: 
-    sys.modules[mod_name] = mock.Mock() 
+autodoc_mock_imports = ['numpy', 'sklearn', 'pandas','timm','opencv-python','torch','torchvision','PIL'] 
+
 
 # -- Project information -----------------------------------------------------
 
