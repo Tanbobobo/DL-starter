@@ -4,6 +4,19 @@ from sklearn.model_selection import KFold
 
 
 def prepare_img_data(seed=2021, gt=None):
+    r'''
+
+    This function split the datasets into k folds which means k pairs of training sets and validation sets
+    
+
+    Args:
+        seed: this parameter is magic for your model preference when generate different sets and `seed` affects the ordering of the
+        indices, which controls the randomness of each fold.
+        gt: this parameter contains whole indexs of the ground truth
+
+    Returns: K folds indexs or the customized outputs
+
+    '''
     data_train = []
     data_eval = []
     kf = KFold(n_splits=5, random_state=seed, shuffle=True)
