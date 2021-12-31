@@ -18,7 +18,7 @@ import mock
 sys.path.insert(0, os.path.abspath('../demos/'))
  
 
-autodoc_mock_imports = ['numpy', 'sklearn', 'pandas','timm','opencv-python','torch','torchvision','PIL'] 
+autodoc_mock_imports = ['albumentations','numpy', 'sklearn', 'pandas','timm','opencv-python','torch','torchvision','PIL'] 
 
 
 # -- Project information -----------------------------------------------------
