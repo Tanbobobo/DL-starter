@@ -11,7 +11,7 @@ you can find the paths settings in preprogress.py.
 After you figure out the data paths, you can
 run python preprogress.py, obatain the training and validation sets
 and
-python main.py, start your deep learning tour
+python main.py, start your deep learning tour.
 
 Maybe you will have problems in path, array, tensor etc.
 Try your best to solve them accroding to Internet :)
