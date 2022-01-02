@@ -7,7 +7,7 @@
 ==========================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    mds/get_started.md
    mds/remoteControl.md
