@@ -30,7 +30,7 @@ pqi use tuna #切换至tuna镜像源
 * pip install 命令格式为pip install xxx==version，xxx为库的名字，version为其版本号。安装库的形式有离线和在线两种形式。
 
 ## 在线安装
-* 以pytorch为例，进入官网https://pytorch.org/, 在Get Started菜单查看相应安装命令，如下图 \
+* 以pytorch为例，进入官网[https://pytorch.org/], 在Get Started菜单查看相应安装命令，如下图 \
 ![](./pytorch_get_started.png) 
 
   在网址https://download.pytorch.org/whl/xxx/torch_stable.html 可在下载不同python版本所需的.whl。其中，xxx=cpu即cpu版本，xxx=cu{}表示cuda版本，cuda版本号为{}，如cuda 11.0表示为xxx=cu110。
