@@ -16,6 +16,7 @@
    :maxdepth: 1
 
    modules.rst
+   links.rst
 
 索引
 ==================
