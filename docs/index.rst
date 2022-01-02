@@ -12,9 +12,6 @@
    mds/get_started.md
    mds/remoteControl.md
    mds/linux_command.md
-.. toctree::
-   :maxdepth: 1
-
    modules.rst
    links.rst
 
