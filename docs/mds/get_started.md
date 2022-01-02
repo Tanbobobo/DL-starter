@@ -1,7 +1,7 @@
 # 开始
 ## Windows
 * 安装四件套 \
-![image](./softwares.png) 
+![](./softwares.png) 
 * 点击开始菜单-Anaconda3-Anaconda Prompt，出现命令行窗口，形式为(base)
  C：xxx\xxx；
 * 命令行操作为输入命令，回车确认命令。在窗口敲下伟大的六个字母：python，回车确认，即进入到安装anaconda时所选择的基础python环境
