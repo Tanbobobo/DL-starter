@@ -21,7 +21,8 @@ unzip：解压.zip文件
 ```angular2html
     vim xxx.py
     i # 编辑模式
-    Esc # 命令模式
+    Esc # 退出命令模式
+    shift+: #开启命令模式
     :a,b d # 删除a至b行
     :a,b < # a至b行向左缩进
     :a,b > # a至b行向右缩进
