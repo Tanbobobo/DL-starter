@@ -32,7 +32,7 @@ def learn(
     model.to(device)
     loss_value_mean = 0
     for idx, data in enumerate(loader):
-        print(idx)
+        
         img = data['img'].to(device)
         gt = data['gt'].to(device)
         optimizer.zero_grad()
