@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('../demos/'))
  
 
 autodoc_mock_imports = ['albumentations','numpy', 'sklearn', 'pandas','timm','opencv-python','torch','torchvision','PIL',
-                       'sklearn.model_selection','torch.optim','sklearn.metrics','torch.nn'] 
+                       'sklearn.model_selection','torch.optim','sklearn.metrics','torch.nn','wandb'] 
 
 
 # -- Project information -----------------------------------------------------
