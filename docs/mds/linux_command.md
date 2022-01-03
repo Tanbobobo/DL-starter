@@ -137,7 +137,5 @@ replace path/demo_old.py? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
 root        1231       1  0  2021 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
 root        1467       1  0  2021 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
 root       88897       1  0  2021 ?        00:00:00 /usr/bin/python3 /usr/lib/ubuntu-release-upgrader/check-new-release -q
-gaoy      759311  759139  0 14:43 pts/0    00:00:00 grep --color=auto python
-gaoy     2797652       1  0  2021 ?        00:00:02 /home/gaoy/miniconda3/bin/python /home/gaoy/miniconda3/bin/jupyter-notebook --config=/home/gaoy/.jupyter/jupyter_notebook_config.py
 (base) ***:~/happy$
 ```
