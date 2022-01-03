@@ -30,13 +30,3 @@ Try your best to solve them accroding to Internet :)
    preprocessor
    runner
    
-Key process
---------------------
-This section lists some vital code snippets corresponding to the data process
-and model forward.
-
-
-.. toctree::
-   :maxdepth: 4
-
-   mds/key_process.md
