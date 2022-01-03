@@ -13,6 +13,7 @@
    mds/remoteControl.md
    mds/linux_command.md
    modules.rst
+   mds/key_process.md
    links.rst
 
 索引
