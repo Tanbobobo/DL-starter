@@ -1,5 +1,5 @@
 import torch
-
+import wandb
 
 def val(
         criterion=None,
@@ -33,6 +33,7 @@ def val(
             loss_value = criterion(pred, gt)
             loss_value_mean += loss_value
             metric.accumulate(pred, gt)
+            wandb.log({'val_loss': loss_value})
 
         metric_value = metric.value
         loss_value_mean = loss_value_mean / len(loader)
