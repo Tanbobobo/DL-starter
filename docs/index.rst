@@ -15,6 +15,7 @@
    modules.rst
    mds/key_process.md
    links.rst
+   mds/concept_vis.md
 
 索引
 ==================
