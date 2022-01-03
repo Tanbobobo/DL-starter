@@ -1,6 +1,7 @@
 ## Linux命令
 * 本节例举常用Linux命令
 ```angular2html
+mkdir: 创建目录
 rm -rf：删除目录
 rm：删除文件
 cat: 浏览文件
