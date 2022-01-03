@@ -1,3 +1,4 @@
+import wandb
 def learn(
         optimizer=None,
         criterion=None,
@@ -41,6 +42,8 @@ def learn(
         metric.accumulate(pred, gt)
         loss_value.backward()
         optimizer.step()
+        wandb.log({'train_loss':loss_value})
+        
         
     metric_value = metric.value
     loss_value_mean = loss_value_mean / len(loader)
